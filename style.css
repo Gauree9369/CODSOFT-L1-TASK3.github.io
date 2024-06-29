@@ -1,0 +1,351 @@
+*{
+    font-family: 'Nunito',sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: .2s linear;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    
+}
+html{
+    font-size: 62.5%;
+}
+.header{
+    position: fixed;
+    top: 0; left: 0;
+    right: 0;
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    z-index: 2;
+    background-color: #000;
+    height: 70px;
+}
+.header .logo img{
+    height: 7rem;
+    border-radius: 50%;
+    padding-right: 0;
+
+}
+.header .navbar #close{
+    display: none;
+}
+.header .navbar a{
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: #fff;
+}
+.header .navbar a:hover{
+    color: #d3ad7f;
+}
+.header #menu{
+    display: none;
+}
+
+
+
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center; 
+    background-image: url("wp6751201.jpg");
+    background-size: cover;
+      overflow: hidden;
+    
+
+}
+section{
+    padding: 2rem 9%;
+}
+.home .content{
+    flex: 1 1 40rem;
+}
+.home .content .title{
+    font-size: 6rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+.home .content .title span{
+    color: wheat;
+    text-transform: uppercase;
+}
+.home .content .description{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #fff;
+}
+ .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    color: #fff;
+    background: #e88711;
+    cursor: pointer;
+}
+.home .content .btn:hover{
+    letter-spacing: .2rem;
+}
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10rem;
+    background: black;
+}
+
+.about-img img {
+    position: relative;
+    width: 700px;
+    height: 700px;
+
+
+
+}
+
+
+.about-contant h2 {
+    text-align: left;
+    color: #fff;
+    font-size: 42px;
+
+}
+
+.about-contant p {
+    color: #fff;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+
+
+.container1 {
+    width: 600px;
+    height: 100%;
+    padding: 75px 90px;
+    margin-left: 120px;
+    color: #fff;
+
+
+
+}
+
+.heading1 {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+         text-align: top;
+
+
+}
+
+
+
+
+.btn-box {
+    width: 345px;
+    display: flex;
+    gap: 2rem;
+    opacity: o;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
+    box-shadow: 0 0 5px #d3ad7f 0 0 25px #d3ad7f;
+
+}
+.head{
+    text-align: center;
+    font-size: 56px;
+}
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1rem));
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+.menu .box-container .box{
+    padding: 5rem;
+    text-align: center;
+    border: 2px solid black;
+
+}
+.menu .box-container .box img{
+    height: 11rem;
+    border-radius: 50%;
+    align-items: center;
+}
+.menu .box-container .box:hover{
+    background-color: #000;
+    color: #fff;
+}
+.products .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1rem));
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+.products .box-container .box{
+    text-align: center;
+    padding: 2rem;
+    border: 2px solid black;
+
+}
+.products .box-container .box .icon a{
+     height: 5rem;
+     width: 5rem;
+     line-height: 5rem;
+     font-size: 2rem;
+     border: 1px solid black;
+     color: black;
+     margin: .3rem;
+}
+
+.products .box-container .box .icon a:hover{
+    background: black;
+    color: #fff;
+}
+.products .box-container .box .image{
+    padding: 2.5rem 0;
+}
+.products .box-container .box .image img{
+    height: 25rem ;
+}
+.products .box-container .box .content h3{
+    color: #000;
+    font-size: 2.5rem;
+
+}
+.products .box-container .box .content .stars{
+    
+ padding: 1.5rem;
+    
+}
+.products .box-container .box .content .stars i{
+    font-size: 1.7rem;
+    color: black;
+}
+.products .box-container .box .content .price{
+    color: #000;
+    font-size: 2.5rem;
+}
+.products .box-container .box .content .price span{
+    text-decoration: line-through;
+    font-size: 1.5rem;
+    font-weight: lighter;
+
+}
+.contact{
+    height: 543px;
+}
+.contact .row{
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+.contact .row form{
+    flex: 1 1 45rem;
+    height: 20px;
+}
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: #000;
+}
+.contact .row form .inputbox{
+    margin-top: 2rem;
+    background: #fff;
+    height: 45px;
+
+}
+.contact .row form .inputbox span{
+    font-size: 3rem;
+    height: 50px;
+
+}
+.contact .row form .inputbox input{
+    font-size: 3rem;
+    height: 50px;
+}
+   
+
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+
+}
+.footer .social a{
+    font-size: 24px;
+    color: white;
+        border: 2px solid #f58d0f;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 #f58d0f,0 0 10px #f58d0f;
+    transition: 0.3s ease;
+}
+.footer .social a:hover{
+   transform : scale(1,2)translateY(-10px);
+    color: #f58d0f;
+    border: 2px solid #f58d0f;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 0;
+    text-align: center;
+}
+.footer ul li a{
+color: white;
+border-bottom: 3px solid transparent;
+transition: 0.3s ease;
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid #f58d0f;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
